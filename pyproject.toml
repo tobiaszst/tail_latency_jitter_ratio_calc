@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tobiaszst-exptrack_jd486"
+name = "tobiaszst-tail_latency_jitter_ratio_calc"
 version = "0.1.0"
 description = "从输入中抽取数值，计算实验管理与追踪工程师·尾延迟抖动与首 token 时间相关的比值与占比，分母为零时明确报错"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://tobiaszst.github.io"
-Repository = "https://github.com/tobiaszst/exptrack_jd486"
-Issues = "https://github.com/tobiaszst/exptrack_jd486/issues"
+Repository = "https://github.com/tobiaszst/tail_latency_jitter_ratio_calc"
+Issues = "https://github.com/tobiaszst/tail_latency_jitter_ratio_calc/issues"
 
 [project.scripts]
-exptrack_jd486 = "exptrack_jd486:main"
+tail_latency_jitter_ratio_calc = "tail_latency_jitter_ratio_calc:main"
 
 [tool.setuptools]
-py-modules = ["exptrack_jd486"]
+py-modules = ["tail_latency_jitter_ratio_calc"]
